@@ -1,0 +1,27 @@
+--a. display all employees whose salary is in the range of 20000 and 45000
+
+SELECT * FROM Employee WHERE empsal BETWEEN 20000 AND 45000;
+
+
+
+--b. display all employees whose name starts with "T"
+
+SELECT * FROM EMPLOYEE WHERE empname LIKE 'A%';
+
+
+
+--c. display all  departments ,whose location is "Chennai"
+
+SELECT * FROM Department WHERE deptloc = 'Chennai';
+
+
+
+--d. filter the department whose department loc in "Chennai","hyderabad"
+
+SELECT * FROM Department WHERE deptloc = 'Chennai' OR 'Hyderabad';
+
+
+
+--e. filter the employees whose emploc not in "Chennai","hyderabad"
+
+SELECT * FROM Department WHERE deptloc != 'Chennai' AND deptloc != 'Hyderabad';
