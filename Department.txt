@@ -1,0 +1,14 @@
+CREATE TABLE Department(
+	deptid long primarykey,
+	deptname varchar(255),
+	deptloc varchar(255)
+);
+
+
+INSERT INTO Department
+		(deptid, deptname,deptloc)
+		VALUES(
+			(23, 'HR', 'Chennai'),
+			(76, 'IT', 'Hyderabad),
+			(43, 'Training', 'Pune)
+		);
